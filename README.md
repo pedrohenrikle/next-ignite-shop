@@ -37,10 +37,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   - [TypeScript](https://www.typescriptlang.org/)
   - [Axios](https://axios-http.com/ptbr/)
   - [Keen-Slider](https://keen-slider.io/)
-  - [Immer](https://github.com/immerjs/immer)
-  - [Radix UI](https://www.radix-ui.com/)
   - [Stitches](https://stitches.dev/)
-  - [React Toastify](https://fkhadra.github.io/react-toastify/introduction)
   - [Stripe](https://stripe.com/br)
 
 
