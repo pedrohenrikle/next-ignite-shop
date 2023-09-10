@@ -11,7 +11,8 @@ import { HomeContainer, Product } from "../styles/pages/home"
 
 import 'keen-slider/keen-slider.min.css'
 import Stripe from "stripe"
-import style from "styled-jsx/style"
+
+import { AiOutlineShopping } from 'react-icons/ai'
 
 interface HomeProps {
   products: {
@@ -46,8 +47,14 @@ export default function Home({ products }: HomeProps) {
               <Image src={product.imageUrl} width={520} height={480} alt="" />
 
               <footer>
-                <strong>{product.name}</strong>
-                <span>{product.price}</span>
+                <div>
+                  <strong>{product.name}</strong>
+                  <span>{product.price}</span>
+                </div>
+
+                <button>
+                  <AiOutlineShopping fontWeight={'bold'} size={32}/>
+                </button>
               </footer>
             </Product>
           </Link>
